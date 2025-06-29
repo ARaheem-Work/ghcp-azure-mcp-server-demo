@@ -23,7 +23,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	 ,"postCreateCommand": "uname -a && echo 'Container is ready!' && npm install -g npx"
+	 //,"postCreateCommand": "uname -a && echo 'Container is ready!' && npm install -g npx"
 
 	// Configure tool-specific properties.
 	// "customizations": {},

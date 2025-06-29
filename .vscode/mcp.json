@@ -6,7 +6,8 @@
         "-y",
         "@azure/mcp@latest",
         "server",
-        "start"
+        "start",
+        "--read-only"
       ]
     }
   }
