@@ -8,14 +8,35 @@ This repository demonstrates how to start and use the Azure Model Context Protoc
 - Node.js (v14 or higher)
 - Azure CLI (for authentication)
 
+
 ## Getting Started
+
+
+### 0. Clone the Repository
+
+First, clone this repository to your local machine:
+
+```sh
+git clone <repo-url>
+cd <repo-directory>
+```
+
+### 0.1 Open in VS Code Dev Container
+
+If you are using Visual Studio Code, open the repository in a Dev Container for a pre-configured development environment:
+
+1. Open the folder in VS Code:
+   - `code <repo-directory>`
+2. When prompted, reopen in the Dev Container (or use the Command Palette: `Dev Containers: Reopen in Container`).
+
+
 
 ### 1. Login to Azure
 
 Authenticate to your Azure tenant:
 
 ```sh
-az login --tenant 01eb1391-a04e-4e61-861b-dab40420f7c9
+az login --tenant <tenant-id>
 ```
 
 
